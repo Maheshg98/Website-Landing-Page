@@ -1,0 +1,624 @@
+/* Add your styles here */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-left {
+    font-weight: bold;
+}
+
+.navbar-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.home {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* .background-image {
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    height: 400px;
+} */
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-wrapper {
+    margin-top: 20px;
+}
+
+.overseas-education {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose-us {
+    margin-top: 30px;
+}
+
+.why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-choose-us li {
+    margin-top: 10px;
+}
+
+.our-programs {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home {
+    display: flex;
+    justify-content: center; /* horizontally center the content */
+    align-items: center; /* vertically center the content */
+}
+
+.content {
+    display: flex;
+    max-width: 800px; /* adjust as needed */
+    margin: 0 auto; /* center content within section */
+}
+
+.text {
+    flex: 1; /* take up remaining space */
+    padding-right: 20px; /* add spacing between text and image */
+    display: flex;
+    flex-direction: column; /* align text vertically */
+    justify-content: center; /* vertically center the text */
+}
+
+.image-wrapper {
+    flex: 1; /* take up remaining space */
+    display: flex;
+    justify-content: flex-end; /* align image to the right */
+}
+
+.image-wrapper img {
+    max-width: 100%; /* ensure image doesn't exceed container width */
+    max-height: 100%; /* ensure image doesn't exceed container height */
+}
+
+.full-width-image {
+    width: 100%; /* Make the container span the full width */
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+}
+
+.full-width-image img {
+    width: 100%; /* Make the image span the full width of its container */
+    display: block; /* Ensure the image behaves as a block element */
+}
+
+.country-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* Allow cards to wrap to the next line */
+    gap: 20px; /* Add some space between cards */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.country-cards img {
+    width: 25%; /* Make the images span the full width of their container */
+    height: auto; /* Ensure the aspect ratio of the images is maintained */
+    border-radius: 18px 0px 62px 0px; /* Optionally, add rounded corners to the images */
+    margin-bottom: 20px; /* Add some space between the images */
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18); /* Add box shadow */
+}
+.why-choose-us ul {
+    list-style-type: none; /* Remove default bullet style */
+    padding-left: 0; /* Remove default padding */
+}
+
+.choose-us-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-us-image {
+    flex: 1;
+    margin-right: 20px; /* Add spacing between image and text */
+}
+
+.choose-us-image img {
+    width: 360px; /* Ensure the width adjusts based on the height */
+    height: 385px; /* Set the desired height */
+    border-radius: 30px;
+}
+
+
+.why-choose-us {
+    flex: 2; /* Make the text take up more space */
+}
+
+.why-choose-us h3 {
+    margin-top: 0; /* Remove default margin */
+}
+
+.checkmark-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checkmark-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkmark-list li img {
+    width: 20px; /* Set the width of the checkmark image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing between the image and text */
+}
+
+.icon-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon-box .icon {
+    margin-bottom: 10px;
+}
+
+.icon-box h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-box hr {
+    width: 50px;
+    height: 2px;
+    background-color: #007bff;
+    margin: 10px auto;
+}
+
+.icon-box a {
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.icon-box a:hover {
+    text-decoration: underline;
+}
+
+.ourprograms-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    gap: 20px; /* Add some space between cards */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icon-box {
+    border: 2px solid #000; /* Add a solid border around the icon box */
+    padding: 10px; /* Add padding to create space between the border and content */
+    width: 200px; /* Set a fixed width for the icon box */
+    text-align: center; /* Center the content inside the icon box */
+}
+
+.icon-box img {
+    width: 200px; /* Set a smaller width for the images */
+    height: auto; /* Ensure the aspect ratio of the images is maintained */
+    margin-bottom: 10px; /* Add some space between the images */
+    display: inline-block; /* Ensure the images align properly with text */
+    border-radius: 5px; /* Add some border radius to the images */
+}
+
+.icon-box:nth-child(1), .icon-box:nth-child(4) {
+    height: 235px; /* Set a shorter height for the first and fourth icon boxes */
+}
+
+.icon-box a.kmr {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    margin-top:12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.icon-box a.kmr:hover {
+    background-color: #0056b3;
+}
+
+.google-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.review-button {
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-button:hover {
+    background-color: #0056b3;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info span {
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px;
+}
+
+.navbar-links-container {
+    display: flex;
+}
+
+.navbar-links-container a {
+    margin-right: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-links-container a:hover {
+    color: blue;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-links-container {
+    display: flex;
+    justify-content: flex-end; /* Align menu items to the right */
+}
+
+.hurray-logo-container img {
+    width: 120px; /* Adjust as per your logo size */
+    height: auto;
+}
+
+.home {
+    padding: 0px 0; /* Add padding to create space */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    flex: 1;
+    margin-right: 50px; /* Adjust spacing between text and image */
+}
+
+.image-wrapper {
+    flex: 1;
+    max-width: 50%; /* Adjust image width */
+    height:'340px';
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 336px;
+}
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Change this to match your desired background color */
+    z-index: 1000; /* Adjust z-index as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow to the navbar */
+}
+
+.fixed-navbar .hurray-logo-container {
+    display: inline-block;
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.navbar-links-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links-container a {
+    text-decoration: none;
+    color: black; /* Change this to match your desired text color */
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.content {
+    padding-top: 70px; /* Adjust this value to match the height of your navbar */
+}
+
+.full-width-image {
+    position: relative;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    margin-top:90px;
+    display: block;
+}
+
+.text-container {
+    position: relative;
+    height: auto; /* Increase the height as needed */
+}
+
+.section-title {
+    position: relative;
+    top: 21px;
+    left: 0;
+    margin-top: 20px; /* Adjust as needed */
+    color: rgba(28, 28, 126, 0.1); /* Shadow color */
+    font-size: 45px; /* Adjust as needed */
+    z-index: -1;
+    font-weight:600;
+}
+
+.content-container {
+    position: relative;
+    display: flex;
+}
+
+.form-container {
+    position: absolute;
+    top: 52%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-field button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-field button:hover {
+    background-color: #0056b3;
+}
+
+.full-width-image {
+    position: relative;
+    width: 100%;
+}
+
+.full-width-image img {
+    width: 100%;
+    display: block;
+}
+
+.our-programs {
+    padding: 50px 0;
+}
+
+.book-image {
+    background-image: url('../../src/Assets/bookimage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 200px; /* Adjust as needed */
+    position: relative;
+}
+
+.book-image h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.ourprograms-cards {
+    overflow-y: auto;
+    max-height: calc(100vh - 250px); /* Adjust as needed */
+}
+
+.contact {
+    padding: 50px;
+}
+
+.section-title {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.contact-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-field input, .form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-field textarea {
+    height: 150px;
+}
+
+.form-field button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-field button:hover {
+    background-color: #0056b3;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-card {
+    width: 460px; /* Increase the width of the cards */
+    height: 140px; /* Increase the height of the cards */
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    width: 50%; /* Decrease the width of the form */
+    min-height: 300px; /* Increase the height of the form */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Arrange form elements vertically */
+}
+
+.form-field {
+    margin-bottom: 15px; /* Add margin between form fields */
+}
+
+.hurray-logo-container .white-logo {
+    filter: invert(1); /* Invert the colors to make the image white */
+}
+
+
+/* Additional styling as per your design */
+
+
+/* Add other styles for cards, icons, etc. */
+
+
+/* Add more styles as needed */
